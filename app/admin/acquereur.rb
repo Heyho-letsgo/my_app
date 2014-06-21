@@ -1,4 +1,5 @@
 ActiveAdmin.register Acquereur do
+  permit_params :prenom, :nom, :telephone, :email, :prix, :chambre
 
   
   # See permitted parameters documentation:
