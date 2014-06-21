@@ -1,4 +1,5 @@
 MyApp::Application.routes.draw do
+  get "acceuilroutes/index"
   resources :acquereurs
 
   devise_for :admin_users, ActiveAdmin::Devise.config
